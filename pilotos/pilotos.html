@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="web icon" type="png" href="img/logoAntiguo.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="../cabecera.css">
+    <title>Fórmula 1</title>
+    <style>
+    .Piloto {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 20%;
+        margin: 10px;
+        padding: 20px;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-decoration: none;
+    }
+    .nombre{
+        border:4px solid ;
+        border-color: #f8f8f8 #f8f8f8 #f8f8f8 blue;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-decoration: none;
+    }
+
+    #bandera{
+        width: 25%;
+        height: 10%;
+        border:1PX solid #333;
+        border-radius: 8px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .Fotos{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+    #logo {
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        border: #f8f8f8;
+        border-radius: 5px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #numero{
+        display: flex;
+        align-self: end;
+        text-decoration: none;
+        border: #f8f8f8;
+        width: 45%;
+        height: 40%;        
+    }
+
+    .Piloto:hover {
+        transform: scale(1.05);
+        border-bottom-right-radius: 8px;
+        border-color: #cccccc red red #cccccc;
+    }
+
+    .GP {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .team {
+        color: #777;
+    }
+
+    .Escuderia-info {
+        background-color: #1e1e1e;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+</style>
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <img src="../img/logo.png" alt="logo-f1" width="10%" height="15%">
+            <a href="../index/index.html">Inicio</a>
+            <a href="../Resumen/resumen.html">Resumen</a>
+            <a href="../carreras/carreras.html">Carreras</a>
+            <div id="desplegable">
+                <a href="../equipos/equipos.html">Equipos</a>
+                <ul style="list-style: none;">
+                  <li><a href="../equipos/Ferrari.html">Ferrari</a></li>
+                  <li><a href="../equipos/RedBull.html">RedBull</a></li>
+                  <li><a href="../equipos/Mclaren.html">Mclaren</a></li>
+                  <li><a href="../equipos/Mercedes.html">Mercedes</a></li>
+                  <li><a href="../equipos/AstonMartin.html">AM</a></li>
+                  <li><a href="../equipos/Alpine.html">Alpine</a></li>
+                  <li><a href="../equipos/Kick.html">Kick</a></li>
+                  <li><a href="../equipos/Haas.html">Haas</a></li>
+                  <li><a href="../equipos/Williams.html">Williams</a></li>
+                </ul>
+              </div>
+              <div id="desplegable">
+                <a href="../pilotos/pilotos.html">Pilotos</a>
+                <ul style="list-style: none;">
+                  <li><a href="../pilotos">Max Vertappen</a></li>
+                  <li><a href="../pilotos">Sergio Perez</a></li>
+                  <li><a href="../pilotos">Lewis Hamilton</a></li>
+                  <li><a href="../pilotos">George Russell</a></li>
+                  <li><a href="../pilotos">Carlos Sainz</a></li>
+                  <li><a href="../pilotos">Charles Leclerc</a></li>
+                  <li><a href="../pilotos">Oscar Piastri</a></li>
+                  <li><a href="../pilotos">Lando Norris</a></li>
+                  <li><a href="../pilotos">Fernando Alonso</a></li>
+                  <li><a href="../pilotos">Lance Stroll</a></li>
+                  <li><a href="../pilotos">Estaban Ocon</a></li>
+                  <li><a href="../pilotos">Pierre Gasly</a></li>
+                  <li><a href="../pilotos">Alexander Albon</a></li>
+                  <li><a href="../pilotos">Logan Sargeant</a></li>
+                  <li><a href="../pilotos">Yuki Tsunoda</a></li>
+                  <li><a href="../pilotos">Valtteri Bottas</a></li>
+                  <li><a href="../pilotos">Zhou Guanyu</a></li>
+                  <li><a href="../pilotos">Kevin Magnussen</a></li>
+                  <li><a href="../pilotos">Nico Hulkenberg</a></li>
+                </ul>
+              </div>
+            <a href="../circuitos/circuitos.html">Circuitos</a>
+            <a href="#">Contacto</a>
+            <a href="../log-in/log-in.html">Log-in</a>
+        </nav>
+</header>
+
+    <div class="Escuderia-info">
+        <h2>Pilotos 2024</h2>
+        <p>Descrube todas las pilotos que nos acompañan esta Temporada 2024:</p>
+    </div>
+
+        <main>
+            <a class="Piloto" href="Ferrari.html">
+                <section class="nombre">
+                    <h4>Max <br>Verstappen</h4>
+                    <img id="bandera" src="img/netherlands.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+                <div>
+                    <hr>
+                    <p>Red Bull Racing</p>
+                </div>
+                <section class="Fotos">
+                    <img id="numero" src="img/1.png" alt="1 Verstappen" border="2px solid #cccccc">
+                    <img id="logo" src="img/Verstappen.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+            </a>
+    
+            <a class="Piloto" href="Ferrari.html">
+                <section class="nombre">
+                    <h4>Sergio <br>Perez</h4>
+                    <img id="bandera" src="img/mexico.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+                <div>
+                    <hr>
+                    <p>Red Bull Racing</p>
+                </div>
+                <section class="Fotos">
+                    <img id="numero" src="img/11.png" alt="1 Verstappen" border="2px solid #cccccc">
+                    <img id="logo" src="img/perez.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+            </a>
+
+            <a class="Piloto" href="Ferrari.html">
+                <section class="nombre">
+                    <h4>George  <br>Russell</h4>
+                    <img id="bandera" src="img/UK.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+                <div>
+                    <hr>
+                    <p>Mercedes</p>
+                </div>
+                <section class="Fotos">
+                    <img id="numero" src="img/63.png" alt="1 Verstappen" border="2px solid #cccccc">
+                    <img id="logo" src="img/Russell.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+            </a>
+
+            <a class="Piloto" href="Ferrari.html">
+                <section class="nombre">
+                    <h4>Lewis <br>Hamilton</h4>
+                    <img id="bandera" src="img/UK.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+                <div>
+                    <hr>
+                    <p>Mercedes</p>
+                </div>
+                <section class="Fotos">
+                    <img id="numero" src="img/44.png" alt="1 Verstappen" border="2px solid #cccccc">
+                    <img id="logo" src="img/hamilton.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+            </a>
+
+            <a class="Piloto" href="Ferrari.html">
+                <section class="nombre">
+                    <h4>Charles <br>Leclerc</h4>
+                    <img id="bandera" src="img/monaco.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+                <div>
+                    <hr>
+                    <p>Ferrari</p>
+                </div>
+                <section class="Fotos">
+                    <img id="numero" src="img/16.png" alt="1 Verstappen" border="2px solid #cccccc">
+                    <img id="logo" src="img/Leclerc.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+            </a>
+
+            <a class="Piloto" href="Ferrari.html">
+                <section class="nombre">
+                    <h4>Carlos <br>Sainz</h4>
+                    <img id="bandera" src="img/España.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+                <div>
+                    <hr>
+                    <p>Ferrari</p>
+                </div>
+                <section class="Fotos">
+                    <img id="numero" src="img/55.png" alt="1 Verstappen" border="2px solid #cccccc">
+                    <img id="logo" src="img/Sainz.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+            </a>
+
+            <a class="Piloto" href="Ferrari.html">
+                <section class="nombre">
+                    <h4>Oscar <br>Piastri</h4>
+                    <img id="bandera" src="img/Australia.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+                <div>
+                    <hr>
+                    <p>Mclaren</p>
+                </div>
+                <section class="Fotos">
+                    <img id="numero" src="img/81.png" alt="1 Verstappen" border="2px solid #cccccc">
+                    <img id="logo" src="img/Piastri.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+            </a>
+
+            <a class="Piloto" href="Ferrari.html">
+                <section class="nombre">
+                    <h4>Lando <br>Norris</h4>
+                    <img id="bandera" src="img/UK.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+                <div>
+                    <hr>
+                    <p>Mclaren</p>
+                </div>
+                <section class="Fotos">
+                    <img id="numero" src="img/4.png" alt="1 Verstappen" border="2px solid #cccccc">
+                    <img id="logo" src="img/Norris.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+            </a>
+
+            <a class="Piloto" href="Ferrari.html">
+                <section class="nombre">
+                    <h4>Max <br>Verstappen</h4>
+                    <img id="bandera" src="img/canada.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+                <div>
+                    <hr>
+                    <p>Aston Martin</p>
+                </div>
+                <section class="Fotos">
+                    <img id="numero" src="img/18.png" alt="1 Verstappen" border="2px solid #cccccc">
+                    <img id="logo" src="img/Stroll.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+            </a>
+
+            <a class="Piloto" href="Ferrari.html">
+                <section class="nombre">
+                    <h4>Fernando <br>Alonso</h4>
+                    <img id="bandera" src="img/España.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+                <div>
+                    <hr>
+                    <p>Aston Martin</p>
+                </div>
+                <section class="Fotos">
+                    <img id="numero" src="img/14.png" alt="1 Verstappen" border="2px solid #cccccc">
+                    <img id="logo" src="img/Alonso.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+            </a>
+
+            <a class="Piloto" href="Ferrari.html">
+                <section class="nombre">
+                    <h4>Esteban <br>Ocon</h4>
+                    <img id="bandera" src="img/Francia.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+                <div>
+                    <hr>
+                    <p>Alpine</p>
+                </div>
+                <section class="Fotos">
+                    <img id="numero" src="img/31.png" alt="1 Verstappen" border="2px solid #cccccc">
+                    <img id="logo" src="img/Ocon.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+            </a>
+
+            <a class="Piloto" href="Ferrari.html">
+                <section class="nombre">
+                    <h4>Pierre <br>Gasly</h4>
+                    <img id="bandera" src="img/Francia.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+                <div>
+                    <hr>
+                    <p>Alpine</p>
+                </div>
+                <section class="Fotos">
+                    <img id="numero" src="img/10.png" alt=" Verstappen" border="2px solid #cccccc">
+                    <img id="logo" src="img/Gasly.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+            </a>
+
+            <a class="Piloto" href="Ferrari.html">
+                <section class="nombre">
+                    <h4>Alexander <br>Albon</h4>
+                    <img id="bandera" src="img/Filipinas.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+                <div>
+                    <hr>
+                    <p>Williams</p>
+                </div>
+                <section class="Fotos">
+                    <img id="numero" src="img/23.png" alt="1 Verstappen" border="2px solid #cccccc">
+                    <img id="logo" src="img/Albon.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+            </a>
+
+            <a class="Piloto" href="Ferrari.html">
+                <section class="nombre">
+                    <h4>Logan <br>Sargeant</h4>
+                    <img id="bandera" src="img/netherlands.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+                <div>
+                    <hr>
+                    <p>Williams</p>
+                </div>
+                <section class="Fotos">
+                    <img id="numero" src="img/2.png" alt="1 Verstappen" border="2px solid #cccccc">
+                    <img id="logo" src="img/Sargeant.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+            </a>
+
+            <a class="Piloto" href="Ferrari.html">
+                <section class="nombre">
+                    <h4>Daniel <br>Ricciardo</h4>
+                    <img id="bandera" src="img/Australia.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+                <div>
+                    <hr>
+                    <p>RB</p>
+                </div>
+                <section class="Fotos">
+                    <img id="numero" src="img/3.png" alt="1 Verstappen" border="2px solid #cccccc">
+                    <img id="logo" src="img/Ricciardo.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+            </a>
+
+            <a class="Piloto" href="Ferrari.html">
+                <section class="nombre">
+                    <h4>Yuki <br>Tsunoda</h4>
+                    <img id="bandera" src="img/japon.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+                <div>
+                    <hr>
+                    <p>RB</p>
+                </div>
+                <section class="Fotos">
+                    <img id="numero" src="img/22.png" alt="1 Verstappen" border="2px solid #cccccc">
+                    <img id="logo" src="img/Tsunoda.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+            </a>
+
+            <a class="Piloto" href="Ferrari.html">
+                <section class="nombre">
+                    <h4>Valtteri <br>Bottas</h4>
+                    <img id="bandera" src="img/finlandia.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+                <div>
+                    <hr>
+                    <p>Kick Sauber</p>
+                </div>
+                <section class="Fotos">
+                    <img id="numero" src="img/77.png" alt="1 Verstappen" border="2px solid #cccccc">
+                    <img id="logo" src="img/Bottas.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+            </a>
+
+            <a class="Piloto" href="Ferrari.html">
+                <section class="nombre">
+                    <h4>Zhou <br>Guanyu</h4>
+                    <img id="bandera" src="img/china.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+                <div>
+                    <hr>
+                    <p>Kick Sauber</p>
+                </div>
+                <section class="Fotos">
+                    <img id="numero" src="img/24.png" alt="1 Verstappen" border="2px solid #cccccc">
+                    <img id="logo" src="img/guanyu.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+            </a>
+
+            <a class="Piloto" href="Ferrari.html">
+                <section class="nombre">
+                    <h4>Kevin <br>Magnussen</h4>
+                    <img id="bandera" src="img/noruega.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+                <div>
+                    <hr>
+                    <p>Haas F1 Team</p>
+                </div>
+                <section class="Fotos">
+                    <img id="numero" src="img/20.png" alt="1 Verstappen" border="2px solid #cccccc">
+                    <img id="logo" src="img/magnussem.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+            </a>
+
+            <a class="Piloto" href="Ferrari.html">
+                <section class="nombre">
+                    <h4>Nico <br>Hulkenberg</h4>
+                    <img id="bandera" src="img/Alemania.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+                <div>
+                    <hr>
+                    <p>Haas F1 Team</p>
+                </div>
+                <section class="Fotos">
+                    <img id="numero" src="img/27.png" alt="1 Verstappen" border="2px solid #cccccc">
+                    <img id="logo" src="img/hulkenberg.png" alt="Verstappen" border="2px solid #cccccc">
+                </section>
+            </a>
+
+
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Fórmula 1 - By Hugo Jiménez</p>
+    </footer>
+
+</body>
+</html>

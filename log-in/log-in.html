@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="web icon" type="png" href="../img/logoAntiguo.png"/>
+    <link rel="stylesheet" href="style.css">
+    <link  rel="stylesheet" href="../cabecera.css">
+    <title>Iniciar Sesión | Formula1</title>
+</head>
+<header>
+    <nav>
+        <img src="../img/logo.png" alt="logo-f1" width="10%" height="15%">
+        <a href="../index/index.html">Inicio</a>
+        <a href="../Resumen/resumen.html">Resumen</a>
+        <a href="../carreras/carreras.html">Carreras</a>
+        <div id="desplegable">
+            <a href="../equipos/equipos.html">Equipos</a>
+            <ul style="list-style: none;">
+              <li><a href="../equipos/Ferrari.html">Ferrari</a></li>
+              <li><a href="../equipos/RedBull.html">RedBull</a></li>
+              <li><a href="../equipos/Mclaren.html">Mclaren</a></li>
+              <li><a href="../equipos/Mercedes.html">Mercedes</a></li>
+              <li><a href="../equipos/AstonMartin.html">AM</a></li>
+              <li><a href="../equipos/Alpine.html">Alpine</a></li>
+              <li><a href="../equipos/Kick.html">Kick</a></li>
+              <li><a href="../equipos/Haas.html">Haas</a></li>
+              <li><a href="../equipos/Williams.html">Williams</a></li>
+            </ul>
+          </div>
+          <div id="desplegable">
+            <a href="../pilotos/pilotos.html">Pilotos</a>
+            <ul style="list-style: none;">
+              <li><a href="../pilotos">Max Vertappen</a></li>
+              <li><a href="../pilotos">Sergio Perez</a></li>
+              <li><a href="../pilotos">Lewis Hamilton</a></li>
+              <li><a href="../pilotos">George Russell</a></li>
+              <li><a href="../pilotos">Carlos Sainz</a></li>
+              <li><a href="../pilotos">Charles Leclerc</a></li>
+              <li><a href="../pilotos">Oscar Piastri</a></li>
+              <li><a href="../pilotos">Lando Norris</a></li>
+              <li><a href="../pilotos">Fernando Alonso</a></li>
+              <li><a href="../pilotos">Lance Stroll</a></li>
+              <li><a href="../pilotos">Estaban Ocon</a></li>
+              <li><a href="../pilotos">Pierre Gasly</a></li>
+              <li><a href="../pilotos">Alexander Albon</a></li>
+              <li><a href="../pilotos">Logan Sargeant</a></li>
+              <li><a href="../pilotos">Yuki Tsunoda</a></li>
+              <li><a href="../pilotos">Valtteri Bottas</a></li>
+              <li><a href="../pilotos">Zhou Guanyu</a></li>
+              <li><a href="../pilotos">Kevin Magnussen</a></li>
+              <li><a href="../pilotos">Nico Hulkenberg</a></li>
+            </ul>
+          </div>
+        <a href="../circuitos/circuitos.html">Circuitos</a>
+        <a href="#">Contacto</a>
+        <a href="../log-in/log-in.html">Log-in</a>
+    </nav>
+</header>
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Crear Cuenta</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>o usa tu correo para registrarte</span>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>registrarse</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Iniciar Sesión</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>o usa la contraseña de tu correo</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a href="#">Has olvidado tu respuesta?</a>
+                <button>Iniciar Sesión</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Bienvenido!</h1>
+                    <p>Ingrese sus datos personales para utilizar todas las funciones del sitio</p>
+                    <button class="hidden" id="login">Iniciar Sesión</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hola, Piloto!</h1>
+                    <p>Regístrese con sus datos personales para utilizar todas las funciones del sitio</p>
+                    <button class="hidden" id="register">registrarse</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Fórmula 1 - By Hugo Jiménez</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

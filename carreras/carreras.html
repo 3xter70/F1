@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="web icon" type="png" href="img/logoAntiguo.png"/>
+    <link  rel="stylesheet" href="../cabecera.css">
+    <title>Fórmula 1</title>
+    <style>
+        .race {
+            background-color: #fff;
+            border: 1px solid #cccccc;
+            border-radius: 8px;
+            border-bottom-left-radius: 2px solid red;
+            margin: 15px;
+            padding: 15px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+
+        }
+
+        .race img {
+            width: 45%;
+            height: 35%;
+        }
+
+        .race:hover {
+            transform: scale(1.05);
+            border-bottom-right-radius: 8px;
+            border-color: #cccccc red red #cccccc;
+        }
+
+        .race h2 {
+            color: #1e1e1e;
+        }
+
+        .GP {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .team {
+            color: #777;
+        }
+
+        .race-info {
+            background-color: #1e1e1e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <img src="../img/logo.png" alt="logo-f1" width="10%" height="15%">
+            <a href="../index/index.html">Inicio</a>
+            <a href="../Resumen/resumen.html">Resumen</a>
+            <a href="../carreras/carreras.html">Carreras</a>
+            <div id="desplegable">
+                <a href="../equipos/equipos.html">Equipos</a>
+                <ul style="list-style: none;">
+                  <li><a href="../equipos/Ferrari.html">Ferrari</a></li>
+                  <li><a href="../equipos/RedBull.html">RedBull</a></li>
+                  <li><a href="../equipos/Mclaren.html">Mclaren</a></li>
+                  <li><a href="../equipos/Mercedes.html">Mercedes</a></li>
+                  <li><a href="../equipos/AstonMartin.html">AM</a></li>
+                  <li><a href="../equipos/Alpine.html">Alpine</a></li>
+                  <li><a href="../equipos/Kick.html">Kick</a></li>
+                  <li><a href="../equipos/Haas.html">Haas</a></li>
+                  <li><a href="../equipos/Williams.html">Williams</a></li>
+                </ul>
+              </div>
+              <div id="desplegable">
+                <a href="../pilotos/pilotos.html">Pilotos</a>
+                <ul style="list-style: none;">
+                  <li><a href="../pilotos">Max Vertappen</a></li>
+                  <li><a href="../pilotos">Sergio Perez</a></li>
+                  <li><a href="../pilotos">Lewis Hamilton</a></li>
+                  <li><a href="../pilotos">George Russell</a></li>
+                  <li><a href="../pilotos">Carlos Sainz</a></li>
+                  <li><a href="../pilotos">Charles Leclerc</a></li>
+                  <li><a href="../pilotos">Oscar Piastri</a></li>
+                  <li><a href="../pilotos">Lando Norris</a></li>
+                  <li><a href="../pilotos">Fernando Alonso</a></li>
+                  <li><a href="../pilotos">Lance Stroll</a></li>
+                  <li><a href="../pilotos">Estaban Ocon</a></li>
+                  <li><a href="../pilotos">Pierre Gasly</a></li>
+                  <li><a href="../pilotos">Alexander Albon</a></li>
+                  <li><a href="../pilotos">Logan Sargeant</a></li>
+                  <li><a href="../pilotos">Yuki Tsunoda</a></li>
+                  <li><a href="../pilotos">Valtteri Bottas</a></li>
+                  <li><a href="../pilotos">Zhou Guanyu</a></li>
+                  <li><a href="../pilotos">Kevin Magnussen</a></li>
+                  <li><a href="../pilotos">Nico Hulkenberg</a></li>
+                </ul>
+              </div>
+            <a href="../circuitos/circuitos.html">Circuitos</a>
+            <a href="#">Contacto</a>
+            <a href="../log-in/log-in.html">Log-in</a>
+        </nav>
+</header>
+
+    <div class="race-info">
+        <h2>Temporada 2024</h2>
+        <p>Descrube todas las carreras que se van a disputar esta Temporada 2024:</p>
+    </div>
+
+        <main>
+            <div class="race">
+                <h2>Round 1</h2>
+                <p class="GP">GP DE BARÉIN</p>
+                <p class="team">Circuito Internacional de Baréin</p>
+                <img id="logo" src="img/barein.png" alt="barein" border="2px solid black">
+            </div>
+    
+            <div class="race">
+                <h2>Round 2</h2>
+                <p class="GP">GP DE ARABIA SAUDITA</p>
+                <p class="team">Jeddah Corniche Circuit</p>           
+                <img id="logo" src="img/arabia.png" alt="arabia" border="2px solid black">
+            </div>
+
+            <div class="race">
+                <h2>Round 3</h2>
+                <p class="GP">GP DE AUSTRALIA</p>
+                <p class="team">Circuito de Albert Park</p>
+                <img id="logo" src="img/australia.png" alt="australia" border="2px solid black">
+            </div>
+
+            <div class="race">
+                <h2>Round 4</h2>
+                <p class="GP">GP DE JAPÓN</p>
+                <p class="team">Circuito de Suzuka</p>
+                <img id="logo" src="img/japon.png" alt="japon" border="2px solid black">
+            </div>
+
+            <div class="race">
+                <h2>Round 5</h2>
+                <p class="GP">GP DE CHINA</p>
+                <p class="team">Circuito Internacional de Shanghái</p>
+                <img id="logo" src="img/china.png" alt="china" border="2px solid black">
+            </div>
+
+            <div class="race">
+                <h2>Round 6</h2>
+                <p class="GP">GP DE MIAMI</p>
+                <p class="team">Autódromo Internacional de Miami</p>
+                <img id="logo" src="img/eeuu.png" alt="eeuu" border="2px solid black">
+            </div>
+
+            <div class="race">
+                <h2>Round 7</h2>
+                <p class="GP">GP DE EMILIA-ROMAÑA</p>
+                <p class="team">Autodromo Enzo e Dino Ferrari</p>
+                <img id="logo" src="img/italia.png" alt="italia" border="2px solid black">
+            </div>
+
+            <div class="race">
+                <h2>Round 8</h2>
+                <p class="GP">GP DE MÓNACO</p>
+                <p class="team">Circuit de Monaco</p>
+                <img id="logo" src="img/monaco.png" alt="monaco" border="2px solid black">
+            </div>
+
+            <div class="race">
+                <h2>Round 9</h2>
+                <p class="GP">GP DE CANADÁ</p>
+                <p class="team">Circuito Gilles Villeneuve</p>
+                <img id="logo" src="img/canada.png" alt="canada" border="2px solid black">
+            </div>
+        
+            <div class="race">
+                <h2>Round 10</h2>
+                <p class="GP">GP DE ESPAÑA</p>
+                <p class="team">Circuito de Barcelona - Catalunya</p>
+                <img id="logo" src="img/españa.png" alt="españa" border="2px solid black">
+            </div>
+        
+            <div class="race">
+                <h2>Round 11</h2>
+                <p class="GP">GP DE AUSTRIA</p>
+                <p class="team">Red Bull Ring</p>
+                <img id="logo" src="img/austria.png" alt="austria" border="2px solid black">
+            </div>
+        
+            <div class="race">
+                <h2>Round 12</h2>
+                <p class="GP">GP DE GRAN BRETAÑA</p>
+                <p class="team">Circuito de Silverstone</p>
+                <img id="logo" src="img/bretaña.png" alt="bretaña" border="2px solid black">
+            </div>
+        
+            <div class="race">
+                <h2>Round 13</h2>
+                <p class="GP">GP DE HUNGRÍA</p>
+                <p class="team">Hungaroring</p>
+                <img id="logo" src="img/hungria.png" alt="hungria" border="2px solid black">
+            </div>
+        
+            <div class="race">
+                <h2>Round 14</h2>
+                <p class="GP">GP DE BÉLGICA</p>
+                <p class="team">Circuito de Spa-Francorchamps</p>
+                <img id="logo" src="img/belgica.png" alt="belgica" border="2px solid black">
+            </div>
+        
+            <div class="race">
+                <h2>Round 15</h2>
+                <p class="GP">GP DE LOS PAÍSES BAJOS</p>
+                <p class="team">Circuito de Zandvoort</p>
+                <img id="logo" src="img/paisesbajos.png" alt="paisesbajos" border="2px solid black">
+            </div>
+        
+            <div class="race">
+                <h2>Round 16</h2>
+                <p class="GP">GP DE ITALIA</p>
+                <p class="team">Autodromo Nacional de Monza</p>
+                <img id="logo" src="img/italia.png" alt="italia" border="2px solid black">
+            </div>
+        
+            <div class="race">
+                <h2>Round 17</h2>
+                <p class="GP">GP DE AZERBAIYÁN</p>
+                <p class="team">Circuito callejero de Bakú</p>
+                <img id="logo" src="img/azerbaiyan.png" alt="azerbaiyan" border="2px solid black">
+            </div>
+        
+            <div class="race">
+                <h2>Round 18</h2>
+                <p class="GP">GP DE SINGAPUR</p>
+                <p class="team">Circuito Urbano Marina Bay</p>
+                <img id="logo" src="img/singapur.png" alt="singapur" border="2px solid black">
+            </div>
+        
+            <div class="race">
+                <h2>Round 19</h2>
+                <p class="GP">GP DE ESTADOS UNIDOS</p>
+                <p class="team">Circuito de las Américas</p>
+                <img id="logo" src="img/eeuu.png" alt="eeuu" border="2px solid black">
+            </div>
+        
+            <div class="race">
+                <h2>Round 20</h2>
+                <p class="GP">GP DE MÉXICO</p>
+                <p class="team">Autódromo Hermanos Rodríguez</p>
+                <img id="logo" src="img/mexico.png" alt="mexico" border="2px solid black">
+            </div>
+        
+            <div class="race">
+                <h2>Round 21</h2>
+                <p class="GP">GP DE BRASIL</p>
+                <p class="team">Autódromo José Carlos Pace</p>
+                <img id="logo" src="img/brasil.png" alt="brasil" border="2px solid black">
+            </div>
+        
+            <div class="race">
+                <h2>Round 22</h2>
+                <p class="GP">GP DE LAS VEGAS</p>
+                <p class="team">Circuito callejero de Las Vegas</p>
+                <img id="logo" src="img/eeuu.png" alt="eeuu" border="2px solid black">
+            </div>
+        
+            <div class="race">
+                <h2>Round 23</h2>
+                <p class="GP">GP DE CATAR</p>
+                <p class="team">Circuito Internacional de Losail</p>
+                <img id="logo" src="img/catar.png" alt="catar" border="2px solid black">
+            </div>
+
+            <div class="race">
+                <h2>Round 24</h2>
+                <p class="GP">GP DE ABU DABI</p>
+                <p class="team">Yas Marina Circuit</p>
+                <img id="logo" src="img/abudabi.png" alt="abudabi" border="2px solid black">
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Fórmula 1 - By Hugo Jiménez</p>
+    </footer>
+
+</body>
+</html>
