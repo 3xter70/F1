@@ -10,40 +10,36 @@
     .Piloto {
         display: flex;
         flex-direction: column;
-        position: relative;
-        width: 20%;
+        width: 30%;
         margin: 10px;
         padding: 20px;
         border: 1px solid #cccccc;
-        border-radius: 5px;
+        border-radius: 8px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         text-decoration: none;
     }
     .nombre{
-        border:4px solid ;
-        border-color: #f8f8f8 #f8f8f8 #f8f8f8 blue;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         text-decoration: none;
+        color: black;
     }
-
+    #equipo{
+        text-decoration: none;
+    }
     #bandera{
         width: 25%;
-        height: 10%;
         border:1PX solid #333;
         border-radius: 8px;
-        max-width: 100%;
-        height: auto;
     }
 
     .Fotos{
         display: flex;
         flex-direction: row;
-        position: relative;
     }
     #logo {
-        width: 100%;
+        width: 60%;
         text-align: center;
         text-decoration: none;
         border: #f8f8f8;
@@ -57,8 +53,8 @@
         align-self: end;
         text-decoration: none;
         border: #f8f8f8;
-        width: 45%;
-        height: 40%;        
+        width: auto;
+        width: 40%;
     }
 
     .Piloto:hover {
@@ -145,11 +141,11 @@
 
         <main>
             <a class="Piloto" href="Ferrari.html">
-                <section class="nombre">
-                    <h4>Max <br>Verstappen</h4>
+                <section class="nombre" id="RedBull" >
+                    <h2>Max <br>Verstappen</h2>
                     <img id="bandera" src="img/netherlands.png" alt="Verstappen" border="2px solid #cccccc">
                 </section>
-                <div>
+                <div  class="equipo"  class="equipo">
                     <hr>
                     <p>Red Bull Racing</p>
                 </div>
@@ -160,11 +156,11 @@
             </a>
     
             <a class="Piloto" href="Ferrari.html">
-                <section class="nombre">
-                    <h4>Sergio <br>Perez</h4>
+                <section class="nombre" id="RedBull" >
+                    <h2>Sergio <br>Perez</h2>
                     <img id="bandera" src="img/mexico.png" alt="Verstappen" border="2px solid #cccccc">
                 </section>
-                <div>
+                <div  class="equipo">
                     <hr>
                     <p>Red Bull Racing</p>
                 </div>
@@ -174,12 +170,12 @@
                 </section>
             </a>
 
-            <a class="Piloto" href="Ferrari.html">
-                <section class="nombre">
-                    <h4>George  <br>Russell</h4>
+            <a class="Piloto" href="Mercedes.html">
+                <section class="nombre"  id="Mercedes">
+                    <h2>George  <br>Russell</h2>
                     <img id="bandera" src="img/UK.png" alt="Verstappen" border="2px solid #cccccc">
                 </section>
-                <div>
+                <div  class="equipo">
                     <hr>
                     <p>Mercedes</p>
                 </div>
@@ -190,11 +186,11 @@
             </a>
 
             <a class="Piloto" href="Ferrari.html">
-                <section class="nombre">
-                    <h4>Lewis <br>Hamilton</h4>
+                <section class="nombre" id="Mercedes">
+                    <h2>Lewis <br>Hamilton</h2>
                     <img id="bandera" src="img/UK.png" alt="Verstappen" border="2px solid #cccccc">
                 </section>
-                <div>
+                <div  class="equipo">
                     <hr>
                     <p>Mercedes</p>
                 </div>
@@ -205,11 +201,11 @@
             </a>
 
             <a class="Piloto" href="Ferrari.html">
-                <section class="nombre">
-                    <h4>Charles <br>Leclerc</h4>
+                <section class="nombre"  id="Ferrari">
+                    <h2>Charles <br>Leclerc</h2>
                     <img id="bandera" src="img/monaco.png" alt="Verstappen" border="2px solid #cccccc">
                 </section>
-                <div>
+                <div  class="equipo">
                     <hr>
                     <p>Ferrari</p>
                 </div>
@@ -220,11 +216,11 @@
             </a>
 
             <a class="Piloto" href="Ferrari.html">
-                <section class="nombre">
-                    <h4>Carlos <br>Sainz</h4>
+                <section class="nombre" id="Ferrari" >
+                    <h2>Carlos <br>Sainz</h2>
                     <img id="bandera" src="img/España.png" alt="Verstappen" border="2px solid #cccccc">
                 </section>
-                <div>
+                <div  class="equipo">
                     <hr>
                     <p>Ferrari</p>
                 </div>
@@ -235,11 +231,11 @@
             </a>
 
             <a class="Piloto" href="Ferrari.html">
-                <section class="nombre">
-                    <h4>Oscar <br>Piastri</h4>
+                <section class="nombre" id="Mclaren" >
+                    <h2>Oscar <br>Piastri</h2>
                     <img id="bandera" src="img/Australia.png" alt="Verstappen" border="2px solid #cccccc">
                 </section>
-                <div>
+                <div  class="equipo">
                     <hr>
                     <p>Mclaren</p>
                 </div>
@@ -250,11 +246,11 @@
             </a>
 
             <a class="Piloto" href="Ferrari.html">
-                <section class="nombre">
-                    <h4>Lando <br>Norris</h4>
+                <section class="nombre"  id="Mclaren">
+                    <h2>Lando <br>Norris</h2>
                     <img id="bandera" src="img/UK.png" alt="Verstappen" border="2px solid #cccccc">
                 </section>
-                <div>
+                <div  class="equipo">
                     <hr>
                     <p>Mclaren</p>
                 </div>
@@ -265,11 +261,11 @@
             </a>
 
             <a class="Piloto" href="Ferrari.html">
-                <section class="nombre">
-                    <h4>Max <br>Verstappen</h4>
+                <section class="nombre"  id="AM">
+                    <h2>Max <br>Verstappen</h2>
                     <img id="bandera" src="img/canada.png" alt="Verstappen" border="2px solid #cccccc">
                 </section>
-                <div>
+                <div  class="equipo">
                     <hr>
                     <p>Aston Martin</p>
                 </div>
@@ -280,11 +276,11 @@
             </a>
 
             <a class="Piloto" href="Ferrari.html">
-                <section class="nombre">
-                    <h4>Fernando <br>Alonso</h4>
+                <section class="nombre"  id="AM">
+                    <h2>Fernando <br>Alonso</h2>
                     <img id="bandera" src="img/España.png" alt="Verstappen" border="2px solid #cccccc">
                 </section>
-                <div>
+                <div  class="equipo">
                     <hr>
                     <p>Aston Martin</p>
                 </div>
@@ -295,11 +291,11 @@
             </a>
 
             <a class="Piloto" href="Ferrari.html">
-                <section class="nombre">
-                    <h4>Esteban <br>Ocon</h4>
+                <section class="nombre"  id="Alpine">
+                    <h2>Esteban <br>Ocon</h2>
                     <img id="bandera" src="img/Francia.png" alt="Verstappen" border="2px solid #cccccc">
                 </section>
-                <div>
+                <div  class="equipo">
                     <hr>
                     <p>Alpine</p>
                 </div>
@@ -310,11 +306,11 @@
             </a>
 
             <a class="Piloto" href="Ferrari.html">
-                <section class="nombre">
-                    <h4>Pierre <br>Gasly</h4>
+                <section class="nombre"  id="Alpine">
+                    <h2>Pierre <br>Gasly</h2>
                     <img id="bandera" src="img/Francia.png" alt="Verstappen" border="2px solid #cccccc">
                 </section>
-                <div>
+                <div  class="equipo">
                     <hr>
                     <p>Alpine</p>
                 </div>
@@ -325,11 +321,11 @@
             </a>
 
             <a class="Piloto" href="Ferrari.html">
-                <section class="nombre">
-                    <h4>Alexander <br>Albon</h4>
+                <section class="nombre"  id="Williams">
+                    <h2>Alexander <br>Albon</h2>
                     <img id="bandera" src="img/Filipinas.png" alt="Verstappen" border="2px solid #cccccc">
                 </section>
-                <div>
+                <div  class="equipo">
                     <hr>
                     <p>Williams</p>
                 </div>
@@ -340,11 +336,11 @@
             </a>
 
             <a class="Piloto" href="Ferrari.html">
-                <section class="nombre">
-                    <h4>Logan <br>Sargeant</h4>
+                <section class="nombre"  id="Williams">
+                    <h2>Logan <br>Sargeant</h2>
                     <img id="bandera" src="img/netherlands.png" alt="Verstappen" border="2px solid #cccccc">
                 </section>
-                <div>
+                <div  class="equipo">
                     <hr>
                     <p>Williams</p>
                 </div>
@@ -354,12 +350,12 @@
                 </section>
             </a>
 
-            <a class="Piloto" href="Ferrari.html">
-                <section class="nombre">
-                    <h4>Daniel <br>Ricciardo</h4>
+            <a class="Piloto href="Ferrari.html">
+                <section class="nombre" " id="RB">
+                    <h2>Daniel <br>Ricciardo</h2>
                     <img id="bandera" src="img/Australia.png" alt="Verstappen" border="2px solid #cccccc">
                 </section>
-                <div>
+                <div  class="equipo">
                     <hr>
                     <p>RB</p>
                 </div>
@@ -370,11 +366,11 @@
             </a>
 
             <a class="Piloto" href="Ferrari.html">
-                <section class="nombre">
-                    <h4>Yuki <br>Tsunoda</h4>
+                <section class="nombre" " id="RB">
+                    <h2>Yuki <br>Tsunoda</h2>
                     <img id="bandera" src="img/japon.png" alt="Verstappen" border="2px solid #cccccc">
                 </section>
-                <div>
+                <div  class="equipo">
                     <hr>
                     <p>RB</p>
                 </div>
@@ -385,11 +381,11 @@
             </a>
 
             <a class="Piloto" href="Ferrari.html">
-                <section class="nombre">
-                    <h4>Valtteri <br>Bottas</h4>
+                <section class="nombre" id="Kick">
+                    <h2>Valtteri <br>Bottas</h2>
                     <img id="bandera" src="img/finlandia.png" alt="Verstappen" border="2px solid #cccccc">
                 </section>
-                <div>
+                <div  class="equipo">
                     <hr>
                     <p>Kick Sauber</p>
                 </div>
@@ -400,11 +396,11 @@
             </a>
 
             <a class="Piloto" href="Ferrari.html">
-                <section class="nombre">
-                    <h4>Zhou <br>Guanyu</h4>
+                <section class="nombre"  id="Kick">
+                    <h2>Zhou <br>Guanyu</h2>
                     <img id="bandera" src="img/china.png" alt="Verstappen" border="2px solid #cccccc">
                 </section>
-                <div>
+                <div  class="equipo">
                     <hr>
                     <p>Kick Sauber</p>
                 </div>
@@ -415,11 +411,11 @@
             </a>
 
             <a class="Piloto" href="Ferrari.html">
-                <section class="nombre">
-                    <h4>Kevin <br>Magnussen</h4>
+                <section class="nombre"  id="Haas">
+                    <h2>Kevin <br>Magnussen</h2>
                     <img id="bandera" src="img/noruega.png" alt="Verstappen" border="2px solid #cccccc">
                 </section>
-                <div>
+                <div  class="equipo">
                     <hr>
                     <p>Haas F1 Team</p>
                 </div>
@@ -430,11 +426,11 @@
             </a>
 
             <a class="Piloto" href="Ferrari.html">
-                <section class="nombre">
-                    <h4>Nico <br>Hulkenberg</h4>
+                <section class="nombre"  id="Haas">
+                    <h2>Nico <br>Hulkenberg</h2>
                     <img id="bandera" src="img/Alemania.png" alt="Verstappen" border="2px solid #cccccc">
                 </section>
-                <div>
+                <div  class="equipo">
                     <hr>
                     <p>Haas F1 Team</p>
                 </div>
