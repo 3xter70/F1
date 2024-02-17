@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -12,32 +12,6 @@ body {
     padding: 0;
     background-color: #f8f8f8;
     color: #333;
-}
-nav {
-    background-color: #EE0000;
-    padding: 10px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-nav a {
-    color: white;
-    justify-items: center;
-    text-decoration: none;
-    padding: 10px;
-    margin: 0 10px;
-    font-weight: bold;
-    font-size: larger;
-
-}
-
-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
 }
 
 .container{

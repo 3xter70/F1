@@ -1,31 +1,28 @@
-.Escuderia {
-    flex-wrap: wrap;
-    width: 45%;
-    margin: 10px;
-    padding: 20px;
+.race {
+    background-color: #fff;
     border: 1px solid #cccccc;
-    border-radius: 5px;
+    border-radius: 8px;
+    border-bottom-left-radius: 2px solid red;
+    margin: 15px;
+    padding: 15px;
+    width: 300px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    text-decoration: none;
-}
-
-.Escuderia img {
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-    border: #f8f8f8;
-    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
 
 }
 
-.Escuderia:hover {
+.race img {
+    width: 45%;
+    height: 35%;
+}
+
+.race:hover {
     transform: scale(1.05);
     border-bottom-right-radius: 8px;
     border-color: #cccccc red red #cccccc;
 }
 
-.Escuderia h2 {
+.race h2 {
     color: #1e1e1e;
 }
 
@@ -38,7 +35,7 @@
     color: #777;
 }
 
-.Escuderia-info {
+.race-info {
     background-color: #1e1e1e;
     color: white;
     padding: 20px;

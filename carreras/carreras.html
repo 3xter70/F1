@@ -5,104 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="web icon" type="png" href="img/logoAntiguo.png"/>
     <link  rel="stylesheet" href="../cabecera.css">
+    <link  rel="stylesheet" href="style.css">
     <title>Fórmula 1</title>
-    <style>
-        .race {
-            background-color: #fff;
-            border: 1px solid #cccccc;
-            border-radius: 8px;
-            border-bottom-left-radius: 2px solid red;
-            margin: 15px;
-            padding: 15px;
-            width: 300px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease-in-out;
-
-        }
-
-        .race img {
-            width: 45%;
-            height: 35%;
-        }
-
-        .race:hover {
-            transform: scale(1.05);
-            border-bottom-right-radius: 8px;
-            border-color: #cccccc red red #cccccc;
-        }
-
-        .race h2 {
-            color: #1e1e1e;
-        }
-
-        .GP {
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-
-        .team {
-            color: #777;
-        }
-
-        .race-info {
-            background-color: #1e1e1e;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-    </style>
 </head>
 <body>
-
-    <header>
-        <nav>
+    <header class="header">
+        <div class="logo">
             <img src="../img/logo.png" alt="logo-f1" width="10%" height="15%">
-            <a href="../index/index.html">Inicio</a>
-            <a href="../Resumen/resumen.html">Resumen</a>
-            <a href="../carreras/carreras.html">Carreras</a>
-            <div id="desplegable">
-                <a href="../equipos/equipos.html">Equipos</a>
-                <ul style="list-style: none;">
-                  <li><a href="../equipos/Ferrari.html">Ferrari</a></li>
-                  <li><a href="../equipos/RedBull.html">RedBull</a></li>
-                  <li><a href="../equipos/Mclaren.html">Mclaren</a></li>
-                  <li><a href="../equipos/Mercedes.html">Mercedes</a></li>
-                  <li><a href="../equipos/AstonMartin.html">AM</a></li>
-                  <li><a href="../equipos/Alpine.html">Alpine</a></li>
-                  <li><a href="../equipos/Kick.html">Kick</a></li>
-                  <li><a href="../equipos/Haas.html">Haas</a></li>
-                  <li><a href="../equipos/Williams.html">Williams</a></li>
-                </ul>
-              </div>
-              <div id="desplegable">
-                <a href="../pilotos/pilotos.html">Pilotos</a>
-                <ul style="list-style: none;">
-                  <li><a href="../pilotos">Max Vertappen</a></li>
-                  <li><a href="../pilotos">Sergio Perez</a></li>
-                  <li><a href="../pilotos">Lewis Hamilton</a></li>
-                  <li><a href="../pilotos">George Russell</a></li>
-                  <li><a href="../pilotos">Carlos Sainz</a></li>
-                  <li><a href="../pilotos">Charles Leclerc</a></li>
-                  <li><a href="../pilotos">Oscar Piastri</a></li>
-                  <li><a href="../pilotos">Lando Norris</a></li>
-                  <li><a href="../pilotos">Fernando Alonso</a></li>
-                  <li><a href="../pilotos">Lance Stroll</a></li>
-                  <li><a href="../pilotos">Estaban Ocon</a></li>
-                  <li><a href="../pilotos">Pierre Gasly</a></li>
-                  <li><a href="../pilotos">Alexander Albon</a></li>
-                  <li><a href="../pilotos">Logan Sargeant</a></li>
-                  <li><a href="../pilotos">Yuki Tsunoda</a></li>
-                  <li><a href="../pilotos">Valtteri Bottas</a></li>
-                  <li><a href="../pilotos">Zhou Guanyu</a></li>
-                  <li><a href="../pilotos">Kevin Magnussen</a></li>
-                  <li><a href="../pilotos">Nico Hulkenberg</a></li>
-                </ul>
-              </div>
-            <a href="../circuitos/circuitos.html">Circuitos</a>
-            <a href="#">Contacto</a>
-            <a href="../log-in/log-in.html">Log-in</a>
+        </div>
+        <nav>
+           <ul class="nav-links">
+                <li><a href="../index/index.html">Inicio</a></li>
+                <li><a href="../Resumen/resumen.html">Resumen</a></li>
+                <li><a href="../carreras/carreras.html">Carreras</a></li>
+                <li><a href="../equipos/equipos.html">Equipos</a></li>
+                <li><a href="../pilotos/pilotos.html">Pilotos</a></li>
+                <li><a href="../circuitos/circuitos.html">Circuitos</a></li>
+                <li><a href="../log-in/log-in.html">Log-in</a></li>
+           </ul>            
         </nav>
-</header>
+        <a class="btn" href="#"><button>Contacto</button></a>
+    </header>
 
     <div class="race-info">
         <h2>Temporada 2024</h2>
